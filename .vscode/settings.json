@@ -1,0 +1,4 @@
+{
+    "java.debug.settings.hotCodeReplace": "auto",
+    "files.autoSave": "afterDelay"
+}
