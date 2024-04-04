@@ -31,8 +31,25 @@ class strings {
     // string new check if equal 
     System.out.println(intro.equals(outro));//false they are not equal
     
+    /* string are equal onot by ignoring 
+    the lower or upper case in the string*/
+    System.out.println(intro.equalsIgnoreCase(outro));
+  
     //checking substring
     System.out.println(intro.substring(7,12)+" is my Name");
+  
+    // replacing the part of string and returns it as new string
+    String intro1=intro.replace("Mohit","Xopun" );
+    System.out.println(intro1);
+    System.out.println(intro);
+    // both of the strings are different 
     
+    /*print string after checking if 
+    it contains a specific word*/
+
+    System.out.println(intro.contains("Mohit")); // true
+ 
+ 
   }
+   
 }
