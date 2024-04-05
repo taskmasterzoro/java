@@ -13,7 +13,7 @@
         System.out.print("what is your weight(kg) and height(meters) ?");
         double  weight = sc.nextDouble();
         double  height=sc.nextDouble();
-        /*using sc.nextInt or sc.nextDouble only take input
+        /*using sc.nextInt or sc.nextDouble only take input for example
         26<enter> it will only take 26 as a input from the terminal 
         and leave the enter  key in the buffer, so when we ask for 
         another number it takes that enter key as an input which is not what we want*/
@@ -23,14 +23,15 @@
          
         /*int age=Integer.parseInteger(sc.nextLine()); */
         
+        System.out.print(sc.nextLine());
         System.out.printf("what is your  gender?(M/F): ");
         String gender =sc.nextLine();
         
         double bmi =weight/(height*height);
         // Printing the result
-        System.out.println(String.format("your name is %s and your age is %d and you are a",name,age,gender));
+        System.out.println(String.format("\n Your name is %s and your age is %d and you are a %s. \n",name,age,gender));
         
-        System.out.printf("hello %s how are you?",name);
+        System.out.printf("hello %s how are you?\n",name);
         System.out.printf("your bmi is %f \n" ,bmi);
         sc.close();
     }
