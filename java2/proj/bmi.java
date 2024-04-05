@@ -17,7 +17,7 @@ public class bmi {
     height=sc.nextFloat();
     // BMI Calculation
     float bmi=weight/(height*height);
-    System.out.printf(" %s BMI  is :- %f",name,bmi);
+    System.out.printf(" %s BMI  is :- %f \n",name,bmi);
     if(bmi<18.50){
     System.out.print(" Your are underweight.\n");
     }
