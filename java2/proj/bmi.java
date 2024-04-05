@@ -1,6 +1,6 @@
-package proj;
+
  import java.util.Scanner;
-public class bmi {
+public class bmi{
     public static void main(String[] args){
     Scanner sc=new Scanner(System.in);
     System.out.println("This is a BMI calculator\n Do you wish to measure your BMI ?");
