@@ -1,7 +1,7 @@
 class operations {
      public static void main(String[] args){
-        int number1=21;
-        int number2=7;
+        int number1=5;
+        int number2=2;
         // addition 
         System.out.println(number1 + number2);
          
