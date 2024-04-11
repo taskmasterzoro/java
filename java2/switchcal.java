@@ -17,7 +17,7 @@
         System.out.println("The sum is:"+ (num1 + num2));
         break;
         /*in switch case of java the if break is not 
-        there then the control will also excute the cases
+        there then the controller will also execute the cases
          after that case biscally every casse after that case  */
         case "-":
         System.out.println("The result of subtraction is: " + (num1 - num2));
@@ -40,11 +40,6 @@
         System.out.println("Invalid Operator");  
         break;
       }    
-      
-
-
-      
-
       sc.close();  
     }
     
