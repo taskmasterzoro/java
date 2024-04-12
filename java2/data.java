@@ -4,7 +4,7 @@ class data{
         byte asinglebyte = 100; // -128 to  127
         short asmallnumber =20000; // -32768 to  32767
         int aninteger = 351946519 ;// -2147483648 to  2147483647
-        long alongnumber = 92856884484857L; // -9223372036854775808 to 9223372036854775807
+        long alongnumber = 9285684842557L; // -9223372036854775808 to 9223372036854775807
         
         // decimal data types 
         double adouble =1.848; //4.9E-324 to 1.7976931348623
